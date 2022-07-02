@@ -11,6 +11,18 @@ function next(){
         imgTagSelect.src = photos[count];
     }else{
         imgTagSelect.src = photos[count];
-        
+
+    }
+
+}
+
+ 
+function prev(){
+    count--;
+    if(count < 0){
+        count = photos.length -1;
+        imgTagSelect.src = photos[count];
+    }else{
+        imgTagSelect.src = photos[count];
     }
 }
